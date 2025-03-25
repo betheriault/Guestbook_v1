@@ -9,3 +9,4 @@ I challeneged myself to build four projects this year, each lasting about 3 mont
 Initials | Date | Comment | What's Spinning? |
 |------- | ---- | ------- | ---------------- |
 bet |02-15-2025 | Initial Create; Created file structure for project | "Zenyatta Mondatta" By The Police |
+bet |03-25-2025 | Pushed boilerplate for HTML pages; cleaned up some files and folders; added 'assets' folder; created basic 'About Me' page |

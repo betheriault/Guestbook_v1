@@ -1,0 +1,98 @@
+
+
+
+/*About Me page*/
+
+#aboutMe-body{
+    background-color: gray;
+}
+
+#text-container p, h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navigation-container a {
+   /* border-color: black; 
+    border-style: solid; */
+    margin-left: 2em;
+    margin-bottom: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navigation-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2em;
+}
+
+#content-container{
+  /*  border-style: solid;
+    border-color: black; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+#space-container{
+ /* border-color: blue;
+    border-style: dashed; */
+    width: 50%;
+    height: 20%;
+    bottom: 80%;
+    position: absolute;
+}
+
+#photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#photo-container{
+   /* border-style: solid;
+    border-color: red; */
+    position: relative;
+    width: 50%;
+    height: 80%;
+    top: 20%;
+    padding-right: 14px;
+    padding-bottom: 12px;
+}
+
+#text-container{
+ /*   border-style: solid;
+    border-color: green; */
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+#title-container{
+ /*    border-style: solid;
+    border-color: yellow; */
+    align-content: center;
+    text-align: center;
+    height: 20%;
+    font: oblique 36px "Garamond", serif;
+}
+
+#text-body-container{
+ /*    border-style: solid;
+    border-color: purple; */
+    height: 60%;
+}
+
+#links-container img {
+    width: 10%;
+    height: 30%;
+    margin: 40px;
+}
+
+#links-container{
+ /*    border-style: solid;
+    border-color: palegreen; */
+    height: 18%;
+    text-align: center;
+}

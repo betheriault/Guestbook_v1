@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <meta http-equiv="X-UA-Compatible" conetent="ie=edge">
     <title>Login Page</title>
-    <link rel="stylesheet" href=".scripts/style.css">
+    <link rel="stylesheet" href="./scripts/styles.css">
   </head>
   <body>
-  
+    <div id="login-header-container">
+      <a href="main.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="myAccount.html">My Account</a>
+      <div id="login-header-title-container">
+        <h1>Login</h1>
+      </div>
+    </div>
+    <div id="login-main-container">
+      <div id="login-main-content-container">
+        <label for="username-input">Username:</label><br>
+        <input type="text" id="username-input" />
+        <br><br>
+        <label for="password-input">Password:</label><br>
+        <input type="password" id="password-input">
+        <br><br>
+        <button>Login</button>
+        <button>Forgot Password</button>
+      </div>
+    </div>
     <script src="../src/index.ts"></script>
   </body>
 </html>

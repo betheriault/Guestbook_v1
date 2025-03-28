@@ -1,10 +1,69 @@
 
+/*
+TODO
+
+Finish styling on Login Page
+Start Styling on My Account Page
+*/
+
+
+/*Main page*/
+
+#main-header-container h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 52px;
+}
+
+#main-header-container{
+    border-style: solid;
+    position:absolute;
+    height: 19%;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    align-content: center;
+    background-color: bisque;
+}
+
+#main-body-container{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #5D4E4A;
+}
+
+#login-button{
+    margin-bottom: 12%;
+    width: 20%;
+    height: 8%;
+    border-radius: 24px;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#login-button:hover{
+    background-color: lightblue;
+    box-shadow: 8px 8px 3px 2px #888888;
+}
+
+#main-about-link{
+margin-top: 12%;
+font-size: 28px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:azure;
+}
+
 
 
 /*About Me page*/
 
 #aboutMe-body{
-    background-color: gray;
+    background-color: #5D4E4A;
 }
 
 #text-container p, h2 {
@@ -17,6 +76,7 @@
     margin-left: 2em;
     margin-bottom: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
 }
 
 #navigation-container{
@@ -48,6 +108,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-style: solid;
 }
 
 #photo-container{
@@ -95,4 +156,44 @@
     border-color: palegreen; */
     height: 18%;
     text-align: center;
+
+}
+
+/* Login Page */
+
+#login-header-container{
+    background-color: bisque;
+    position: absolute;
+    height: 19%;
+    width: 100%;
+    text-align: center;  
+}
+
+a {
+    color: #5D4E4A;
+}
+
+
+#login-header-title-container{
+    position: absolute;
+    justify-items: center;
+    text-align: center;
+    border-style: solid;
+    bottom: 0;
+    width: 100%;
+}
+
+#login-main-container{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    bottom: 0;
+    background-color: #5D4E4A;
+    color:azure;
+    display: flex;
+}
+
+#login-main-content-container{
+    position: relative;
+    margin: auto;
 }

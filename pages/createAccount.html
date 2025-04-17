@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" conetent="ie=edge">
+    <title>Create Account Page</title>
+    <link rel="stylesheet" href="./scripts/styles.css">
+  </head>
+  <body id="create-account-body-container">
+    <div id="create-account-nav-bar-container">
+      <a href="main.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="login.html">Login</a>
+    </div>
+    <div id="create-account-header-container">
+      <h1>Create an Account</h1>
+    </div>
+    <div id="create-account-main-body-container">
+      <div id="create-account-main-body-inputs-container">
+        <div id="cambic-first-name-container">
+          <label for="cambic-first-name-input">First Name</label>
+          <input type="text" id="cambic-first-name-input"/>
+        </div>
+        <div id="cambic-last-name-container">
+          <label for="cambic-last-name-input">Last Name</label>
+          <input type="text" id="cambic-last-name-input"/>
+        </div>
+        <div id="cambic-email-container">
+          <label for="cambic-email-input">Email</label>
+          <input type="text" id="cambic-email-input"/>
+        </div>
+        <div id="cambic-username-container">
+          <label for="cambic-username-input">Username</label>
+          <input type="text" id="cambic-username-input"/>
+        </div>
+        <div id="cambic-password-container">
+          <label for="cambic-password-input">Password</label>
+          <input type="password" id="cambic-password-input" placeholder="Must be 6-15 characters"/>
+          <label for="cambic-show-password-checkbox">Show Password</label>
+          <input type="checkbox" id="cambic-show-password-checkbox" onclick="showPassword()">
+        </div>
+      </div>
+      <div id="create-account-main-body-submit-container">
+        <button id="cambsc-submit-button">Submit</button>
+        <button id="'cambsc-clear-all-button" onclick="clearAll()">Clear All</button>
+      </div>
+  </div>
+    <script src="../src/index.js"></script>
+  </body>
+</html>

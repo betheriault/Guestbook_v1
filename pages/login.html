@@ -11,23 +11,31 @@
     <div id="login-header-container">
       <a href="main.html">Home</a>
       <a href="about.html">About</a>
-      <a href="myAccount.html">My Account</a>
       <div id="login-header-title-container">
         <h1>Login</h1>
       </div>
     </div>
     <div id="login-main-container">
       <div id="login-main-content-container">
-        <label for="username-input">Username:</label><br>
-        <input type="text" id="username-input" />
+        <div id="login-main-content-username-container">
+          <label for="username-input">Username</label><br>
+          <input type="text" id="username-input" />
+        </div>
         <br><br>
-        <label for="password-input">Password:</label><br>
-        <input type="password" id="password-input">
+        <div id="login-main-content-password-container">
+          <label for="password-input">Password</label><br>
+          <input type="password" id="password-input">
+        </div>
         <br><br>
-        <button>Login</button>
-        <button>Forgot Password</button>
+        <div id="login-main-content-submit-container">
+          <button id="lmcsm-login-button">Login</button>
+          <button id="lmcsm-forgot-password-button">Forgot Password</button>
+        </div>
+        <div id="login-main-content-create-account-container">
+          <a href="createAccount.html">New User? Create Account</a>
+        </div>
       </div>
     </div>
-    <script src="../src/index.ts"></script>
+    <script src="../src/index.js "></script>
   </body>
 </html>

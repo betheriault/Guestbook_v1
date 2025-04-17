@@ -2,8 +2,8 @@
 /*
 TODO
 
-Finish styling on Login Page
-Start Styling on My Account Page
+Clean up styling on all pages (uniform, responsive)
+
 */
 
 
@@ -36,7 +36,7 @@ Start Styling on My Account Page
     background-color: #5D4E4A;
 }
 
-#login-button{
+#mbc-login-button{
     margin-bottom: 12%;
     width: 20%;
     height: 8%;
@@ -46,7 +46,7 @@ Start Styling on My Account Page
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#login-button:hover{
+#mbc-login-button:hover{
     background-color: lightblue;
     box-shadow: 8px 8px 3px 2px #888888;
 }
@@ -183,6 +183,11 @@ a {
     width: 100%;
 }
 
+#login-header-title-container h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 52px;
+}
+
 #login-main-container{
     position: absolute;
     height: 80%;
@@ -196,4 +201,157 @@ a {
 #login-main-content-container{
     position: relative;
     margin: auto;
+}
+
+#login-main-content-container input{
+    margin-top: 10%;
+}
+
+#login-main-content-username-container{
+    margin-bottom: 25%;
+}
+
+#login-main-content-password-container{
+    margin-bottom: 25%;
+}
+
+#login-main-content-create-account-container{
+    margin-top: 2%;
+}
+
+#login-main-content-create-account-container a {
+    color:azure;
+}
+
+/*Create Account Page*/
+
+#create-account-body-container {
+    position: relative;
+    width: 960px;
+    height: 1024px;
+    background-color: bisque;
+}
+
+#create-account-nav-bar-container {
+    position: relative;
+   /* border-style: solid; */
+    text-align: center;
+    width: 100%;
+    background-color: bisque;
+    color:#5D4E4A;
+}
+
+#create-account-header-container {
+    position: relative;
+  /*  border-style: solid; */
+    text-align: center;
+    width: 100%;
+    background-color: bisque;
+}
+
+#create-account-main-body-container {
+    position: relative;
+  /*  border-style: solid; */
+    height: 100%;
+    width: 100%;
+    background-color: #5D4E4A;
+}
+
+#create-account-main-body-inputs-container{
+   /* border-style: solid; */
+    width: 100%;
+    height: 50%;
+    margin-top: 15px;
+    color: azure;
+}
+
+#create-account-main-body-inputs-container input, label{
+    position:relative;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#create-account-main-body-submit-container {
+    /* border-style: solid; */
+    position: relative;
+    text-align: center;
+    margin-top: 12px;
+    width: 100%;
+    height: 20%;
+}
+
+#create-account-main-body-submit-container button {
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    margin: auto;
+}
+
+#cambic-first-name-container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+}
+
+#cambic-last-name-container{
+    margin-bottom: 25px;
+}
+
+#cambic-email-container{
+    margin-bottom: 25px;
+}
+
+#cambic-username-container{
+    margin-bottom: 25px;
+}
+
+#cambic-password-container{
+    margin-bottom: 25px;
+}
+
+/*Forgot Password Page*/
+
+#forgot-password-header-container{
+    border-style: solid;
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    height: 20%;
+    top:0;
+
+}
+
+#forgot-password-content-container{
+    border-style: solid;
+    position:absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+}
+
+#forgot-password-main-content-container{
+    border-color: blue;
+    border-style: solid;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    position: relative;
+    text-align: center;
+    height: 50%;
+}
+
+#forgot-password-main-content-container input {
+    margin-bottom: 3px;
+}
+
+#forgot-password-main-content-container label {
+    margin-top: 12px;
+}
+
+#forgot-password-submit-content-container{
+    border-color:red;
+    border-style: solid;
+    position: relative;
+    text-align: center;
 }
